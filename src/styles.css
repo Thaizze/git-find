@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+    /* cores */
+    --tt-default: rgba(255, 255, 255, 1);
+    
+    --light-gray: rgba(153, 153, 153, 1);
+    --middle-gray: rgba(45, 51, 59, 1);
+    --dark-gray: rgba(29, 33, 40, 1);
+
+    --light-blue: rgba(83, 155, 245, 1);
+
+}
+
+body{
+    font-family: 'Roboto, Arial', sans-serif;
+    background-color: var(--dark-gray);
+    color: var(--tt-default);
+}
+
+body, input, button{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var(--tt-default);
+}
+
+hr{
+    background-color: var(--middle-gray);
+    border: 1px solid var(--middle-gray);
+}

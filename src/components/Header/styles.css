@@ -1,0 +1,12 @@
+header{
+    width: 100%;
+    height: 5rem;
+    background-color: var(--middle-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{ 
+    font-size: 2.4rem;
+}
